@@ -8,3 +8,8 @@ def Fact(x):
 
 Num = int(input("Enter a number to get its factorial"))
 print("The factorial of " + str(Num) + " is " + str(Num * Fact(Num)))
+if Num > 0:
+    print("The factorial of " + str(Num) + " is " + str(Num * Fact(Num)))
+
+else:
+    print("Its Factorial is not possible as digit entered is negative")
